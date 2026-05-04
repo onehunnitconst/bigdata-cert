@@ -1,0 +1,77 @@
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Jupyter Notebook converted files
+*.html
+*.nbconvert.ipynb
+
+# pyenv / virtual environments
+.python-version
+.venv/
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Distribution / packaging
+build/
+dist/
+*.egg
+
+# pyenv
+.pyenv/
+
+# pipenv / poetry
+Pipfile.lock
+poetry.lock
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Data files (선택적 - 필요에 따라 주석 처리)
+# *.csv
+# *.xlsx
+# *.parquet
+# data/
+
+# 모델 파일
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+*.ckpt
+
+# 로그
+*.log
+logs/
